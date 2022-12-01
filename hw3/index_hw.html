@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+	<title>figure</title>
+	<style type="text/css">
+	@media screen{
+	body{
+		background-color: floralwhite;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: fantasy;
+		color: darkblue;
+	}
+	p{
+		margin-top: 2%;
+		float: top;
+	}
+	leftfloat{
+		float: left;
+	}
+	pad{
+		margin-left: 10%;
+	}
+	img{
+		height: 25%;
+		width: 25%;
+	}
+	textarea{
+		resize: none;
+		float: top;
+		margin-left: 1%;
+		margin-right: 1%;
+
+	}
+	space{
+		margin-left: 2%;
+	}
+	p.dashed{
+		border-style: dashed;
+		margin-left: 1%;
+		margin-right: 7%;
+	}
+	}
+
+	@media print{
+		body{
+		margin-left: auto;
+		margin-right: auto;
+		font-family: monospace;
+		color: darkgreen;
+	}
+	p{
+		margin-top: 2%;
+		float: top;
+	}
+	leftfloat{
+		float: left;
+	}
+	pad{
+		margin-left: 10%;
+	}
+	img{
+		height: 30%;
+		width: 30%;
+	}
+	textarea{
+		resize: none;
+		float: top;
+		margin-left: 1%;
+		margin-right: 1%;
+
+	}
+	space{
+		margin-left: 2%;
+	}
+	p.dotted{
+		border-style: dashed;
+		margin-left: 1%;
+		margin-right: 7%;
+	}
+
+	}
+
+</style>
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css" href="hw3_2.css">
+</body>
+<div>
+	<p><leftfloat>Name</leftfloat><space>    
+		<input name="name" type="text" size="100" maxlength="100" placeholder="Name"></space>
+	</p>
+
+	<p><leftfloat>StudentID</leftfloat>
+		<space><input name="StudentID" type="text" size="50" maxlength="50" placeholder="StudentID"></space>
+	<pad>Birthday
+		<space><input name="Department" type="text" size="50" maxlength="50" placeholder="Department"></space>
+	</pad></p>
+
+	<p><leftfloat>Favorite Course</leftfloat>
+		<space><input name="Favorite" type="text" size="60" maxlength="30" placeholder="Favorite Course"></space>
+	</p>
+
+	<p><leftfloat>Message</leftfloat>
+		<space><p class = "dashed"><textarea rows="6" cols="183">Say something</textarea></p></space>
+	</p>
+	<block>
+		<img src="https://img.youjidi.net/uploadimg/image/20191009/20191009132703_91317.jpg" >
+	</block>
+</div>
+
+</html>
+
+
+
+
