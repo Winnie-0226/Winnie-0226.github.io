@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+
+		var firstInteger;
+		var secondInteger
+
+		firstInteger = window.prompt("Please enter the first number");
+		secondInteger = window.prompt("Please enter the second number");
+
+		if (firstInteger>secondInteger) {
+			document.body.style.backgroundColor = 'lightBlue';
+			document.write("firstInput>secondInput");
+		}
+		else if (secondInteger>firstInteger) {
+			document.body.style.backgroundColor = 'lightGreen';
+			document.write("secondInput>firstInput");	
+		}
+		else{
+			document.body.style.backgroundColor = 'lightYellow';
+			document.write("secondInput == firstInput");	
+		}
+
+
+	</script>>
+
+	<input type = "button" value = "show the first input" 
+			onclick=""document.write(firstInteger)";>
+	<input type = "button" value = "show the second input" 
+			onclick=""document.write(secondInteger)";>
+
+</body>
+</html>
+
